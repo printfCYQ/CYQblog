@@ -1,0 +1,39 @@
+.ad-div{
+    margin-top: .5rem;
+  background-color:rgba(255,255,255,0.5);
+}
+.ad-div div{
+    border-radius: .3rem;
+    margin-bottom: .2rem;
+    /* overflow: hidden; */
+}
+/* .ant-tabs-tab-active
+{
+   width: 33.3333%;
+} */
+.qq-title {
+    text-align: center;
+    margin: 5px;
+    color: #1890ff;
+    font-size: 1.0rem;  
+}
+.qq-number{
+    color: #999;
+    margin-top: 1rem;
+}
+/* .wechat-img{
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+} */
+
+/* tab选项名 */
+.ant-tabs-nav .ant-tabs-tab-active{
+    font-weight: bold;
+    color:#f40;
+}
+
+
+/* 广告Tab间距 */
+.ant-tabs-nav .ant-tabs-tab{
+    margin: 0 .5rem 0 0;
+}

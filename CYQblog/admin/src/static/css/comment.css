@@ -1,0 +1,20 @@
+.comment-table .ant-table-thead > tr > th {
+  font-size: 16px;
+  font-weight: bold;
+  background: #ddd;
+}
+
+.reply-table .ant-table-thead > tr > th {
+  font-size: 14px;
+  font-weight: bold;
+  background: #fff;
+  padding: 12px 16px;
+}
+ 
+.reply-table .ant-table-tbody > tr > td {
+  padding: 12px 16px;
+}
+
+   
+
+

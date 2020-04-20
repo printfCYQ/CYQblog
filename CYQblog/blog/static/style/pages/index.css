@@ -1,0 +1,97 @@
+/*修改滚动条样式*/
+::-webkit-scrollbar {
+  /*滚动条整体部分*/
+  width: 15px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-track {
+  /* 外层轨道。 */
+  background: #f8f8f8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  /* 滚动条里面可以拖动的那部分 */
+  border-radius: 10px;
+  background-color: #1890ff;
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1890ff;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+}
+body {
+  background-color: #f6f6f6;
+  background-image: url("/static/img/blog-bg.jpg");
+}
+
+pre {
+  display: block;
+  background-color: #283646 !important;
+  padding: 0.5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: 0.3rem;
+}
+
+pre > code {
+  border: 0px !important;
+  background-color: #283646 !important;
+  color: #fff;
+}
+code {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: 1px solid #fdb9cc;
+  border-radius: 3px;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #4f4f4f;
+  margin: 0px 3px;
+}
+.list-context p {
+  font-size: 1rem;
+}
+.list-context img {
+  /* width: 100%; */
+  border-radius: 1rem;
+  border: 2px solid #a7a7a7;
+  max-width: 1000px !important;
+  display: block;
+  margin: 8px auto;
+}
+
+.comm-right{
+  margin-left: 1rem;
+}
+
+/* 返回顶部 */
+.ant-back-top {
+  bottom: 120px;
+}
+
+/* 查看全文 */
+.all-view {
+  margin-top: -1rem;
+  position: absolute;
+  right: 2rem;
+}
+
+/* 最新日志 */
+.type-name{
+  margin-top: .2rem;
+  margin-left: 1rem;
+  font-weight: 800;
+}
+
+/* 搜索框 */
+.searchBox{
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
