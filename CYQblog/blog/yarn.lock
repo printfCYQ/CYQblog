@@ -48,29 +48,13 @@
     gud "^1.0.0"
     warning "^4.0.3"
 
-"@ant-design/icons-react@^2.0.1", "@ant-design/icons-react@~2.0.1":
+"@ant-design/icons-react@~2.0.1":
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/@ant-design/icons-react/download/@ant-design/icons-react-2.0.1.tgz#17a2513571ab317aca2927e58cea25dd31e536fb"
   integrity sha1-F6JRNXGrMXrKKSfljOol3THlNvs=
   dependencies:
     "@ant-design/colors" "^3.1.0"
     babel-runtime "^6.26.0"
-
-"@ant-design/icons-svg@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/@ant-design/icons-svg/download/@ant-design/icons-svg-4.0.0.tgz#6683db0df97c0c6900bb28a280faf391522ec734"
-  integrity sha1-ZoPbDfl8DGkAuyiigPrzkVIuxzQ=
-
-"@ant-design/icons@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.npm.taobao.org/@ant-design/icons/download/@ant-design/icons-4.0.2.tgz?cache=0&sync_timestamp=1582987591455&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ant-design%2Ficons%2Fdownload%2F%40ant-design%2Ficons-4.0.2.tgz#6fce64b3e207d99d1e258ff527674e22b9b2afc0"
-  integrity sha1-b85ks+IH2Z0eJY/1J2dOIrmyr8A=
-  dependencies:
-    "@ant-design/colors" "^3.1.0"
-    "@ant-design/icons-svg" "^4.0.0"
-    classnames "^2.2.6"
-    insert-css "^2.0.0"
-    rc-util "^4.9.0"
 
 "@ant-design/icons@~2.1.1":
   version "2.1.1"
@@ -1966,7 +1950,7 @@ core-js@^1.0.0:
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
 
-core-js@^2.4.0, core-js@^2.5.3, core-js@^2.6.5:
+core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.10.tgz#8a5b8391f8cc7013da703411ce5b585706300d7f"
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
@@ -3070,11 +3054,6 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
-insert-css@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npm.taobao.org/insert-css/download/insert-css-2.0.0.tgz#eb5d1097b7542f4c79ea3060d3aee07d053880f4"
-  integrity sha1-610Ql7dUL0x56jBg067gfQU4gPQ=
-
 invariant@^2.2.2:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
@@ -3487,10 +3466,10 @@ lodash.throttle@^4.0.0:
   resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
   integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
 
-lodash@^4.16.5, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+lodash@^4.16.5, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.4, lodash@^4.17.5:
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -3551,15 +3530,6 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
-
-markdown-navbar@^1.0.7:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/markdown-navbar/-/markdown-navbar-1.0.7.tgz#da3dac0f0c83dd62858ee36f2ae35e2c8eca834e"
-  integrity sha512-+cYPOkwuF4xdyvNRRjB/DDDO8tNhxLhFmTQwAP3Xfh8XYKqPZLaBIMkO4DgtCKQ4tSA6Zu1Yjfu/jBkkP49IyQ==
-  dependencies:
-    core-js "^2.5.3"
-    prop-types "^15.6.0"
-    react "^16.2.0"
 
 marked@^0.7.0:
   version "0.7.0"
@@ -5423,18 +5393,6 @@ rc-util@^4.0.4, rc-util@^4.1.1, rc-util@^4.10.0, rc-util@^4.11.2, rc-util@^4.13.
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
 
-rc-util@^4.9.0:
-  version "4.20.0"
-  resolved "https://registry.npm.taobao.org/rc-util/download/rc-util-4.20.0.tgz?cache=0&sync_timestamp=1582451338825&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Frc-util%2Fdownload%2Frc-util-4.20.0.tgz#fb601c59bb48cbee38538e0d5b628addda6a8c30"
-  integrity sha1-+2AcWbtIy+44U44NW2KK3dpqjDA=
-  dependencies:
-    add-dom-event-listener "^1.1.0"
-    babel-runtime "6.x"
-    prop-types "^15.5.10"
-    react-is "^16.12.0"
-    react-lifecycles-compat "^3.0.4"
-    shallowequal "^1.1.0"
-
 rc@^1.2.7:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
@@ -5472,11 +5430,6 @@ react-is@16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
-react-is@^16.12.0:
-  version "16.13.0"
-  resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.0.tgz?cache=0&sync_timestamp=1583523880531&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.0.tgz#0f37c3613c34fe6b37cd7f763a0d6293ab15c527"
-  integrity sha1-DzfDYTw0/ms3zX92Og1ik6sVxSc=
-
 react-is@^16.7.0, react-is@^16.8.1:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
@@ -5513,7 +5466,7 @@ react-slick@~0.25.2:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-react@^16.12.0, react@^16.2.0:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
