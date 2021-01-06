@@ -6,7 +6,7 @@
     "@ant-design/icons": "^4.0.2",
     "@ant-design/icons-react": "^2.0.1",
     "antd": "^3.26.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "echarts": "^4.6.0",
     "echarts-for-react": "^2.0.15-beta.1",
     "marked": "^0.7.0",
