@@ -5,6 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Author from "./Author";
 import Advert from "./Advert";
+import Time from "./Time";
 import "../static/style/pages/index.css";
 
 const Layout = ({ pageTitle = "", renderRight, children = null }) => {
@@ -30,6 +31,7 @@ const Layout = ({ pageTitle = "", renderRight, children = null }) => {
               <Author />
               <Affix offsetTop={5}>
                 <Advert />
+                <Time />
               </Affix>
             </>
           )}

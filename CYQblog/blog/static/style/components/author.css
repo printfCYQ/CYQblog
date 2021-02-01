@@ -37,7 +37,9 @@
 }
 
 /* 头像光圈 */
-.avatar-img .ant-avatar{
+.avatar-img .PlayEy{
+    margin: 0 auto;
+    border-radius: 50%;
     animation: light 2s linear both infinite;
 }
 @keyframes light{

@@ -4,6 +4,7 @@ import "../static/style/components/author.css";
 import servicePath from "../config/apiUrl";
 import axios from "axios";
 import CountTo from "react-count-to";
+import Music from "./Music";
 const tagList = [
   {
     color: "magenta",
@@ -65,10 +66,11 @@ const Author = () => {
   return (
     <div className="author-div comm-box">
       <div className="avatar-img">
-        <Avatar
+        {/* <Avatar
           size={100}
           src="../static/img/author-img.jpg"
-        />
+        /> */}
+        <Music/>
       </div>
       <div style={{ fontSize: 30, fontWeight: 700 }}>CYQ</div>
       <div>入门程序猿</div>

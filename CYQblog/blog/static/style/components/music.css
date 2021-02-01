@@ -1,0 +1,56 @@
+.PlayEy {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-image: url("/static/img/author-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.Btn {
+  position: absolute;
+  /* top: -50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 35px;
+  background-color: yellow;
+  background: url("/static/img/btn-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  animation: Btn-bg 3s linear infinite;
+}
+
+.Play {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: red;
+  background: url("/static/img/pause.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  transition: 0.5s;
+}
+
+.btns-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  width: 99%;
+  height: 99%;
+}
+
+@keyframes Btn-bg {
+  from {
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
