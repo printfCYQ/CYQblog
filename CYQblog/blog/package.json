@@ -14,7 +14,7 @@
     "babel-plugin-import": "^1.13.0",
     "highlight.js": "^9.16.2",
     "lodash": "^4.17.15",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "next": "9.1.4",
     "react": "^16.12.0",
     "react-count-to": "^0.12.0",
